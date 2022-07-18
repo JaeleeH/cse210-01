@@ -14,7 +14,7 @@ public class Words{
         "exercise", "biscuit", "teamwork"};
 
     //create random number to choose word from list
-    //set currentWord to randNum
+    //set currentWord to random number
     public string getRandNum(){
         Random random = new Random();
         int currentWord = random.Next(0,(words.Count -1));
